@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulir PMB</title>
+</head>
+<body>
+	 <center><img src="judul.png" width="80%" height="25%"></center>
+	 <hr color="black" width="80%" size="5%">
+	 <center><h2>FORMULIR PENDAFTARAN MAHASISWA BARU</h2></center>
+	 <fieldset>
+	 	<table border="0" width="80%" cellpadding="2" cellspacing="2" align="center" bgcolor="white"><tr><br></tr>
+	 		<tr>
+	 			<td colspan="2">
+	 			<h4>PETUNJUK PENGISIAN</h4>
+	 			<ol type="1">
+	 			<li>Isilah data isian dengan cermat, teliti dan benar</li>
+	 			<li>Isilah dengan huruf balok</li>
+	 			<li>Salah penulisan pada pengisian formulir ini akan berakibat kesalahan pada penulisan data saudara pada ijazah</li>
+	 			</ol>
+	 			</td>
+	 		</tr>
+    		<tr>
+    			<td><b>No. Pendaftaran</b>
+    			</td>
+    			<td><input type="text" name="no.pndftaran" size="63" maxlength="100"/></td>
+    		</tr>
+   			 <tr>
+   			 	<td><b>Nama<br>(sesuai dengan Akte Kelahiran,<br>Ijazah SMA/SMK/DIPLOMA Tiga)</b></td>
+   			 	<td><input type="text" name="nama" size="63" maxlength="100"/>
+   			 	</td>
+   			 </tr>
+	 		<tr>
+	 			<td><b>Tanggal<br>(Diisi oleh calon mahasiswa<br>yang mengikuti ujian sarangan) </b></td>
+	 			<td>
+		        <select name="tgl">
+		        <option value="pilih">1</option>
+		        <option value="pilih">2</option>
+		        <option value="pilih">3</option>
+		        <option value="pilih">4</option>
+		        <option value="pilih">5</option>
+		        <option value="pilih">6</option>
+		        <option value="pilih">7</option>
+		        <option value="pilih">8</option>
+		        <option value="pilih">9</option>
+		        <option value="pilih">10</option>
+		        <option value="pilih">11</option>
+		        <option value="pilih">12</option>
+		        <option value="pilih">13</option>
+		        <option value="pilih">14</option>
+		        <option value="pilih">15</option>
+		        <option value="pilih">16</option>
+		        <option value="pilih">17</option>
+		        <option value="pilih">18</option>
+		        <option value="pilih">19</option>
+		        <option value="pilih">20</option>
+		        <option value="pilih">21</option>
+		        <option value="pilih">22</option>
+		        <option value="pilih">23</option>
+		        <option value="pilih">24</option>
+		        <option value="pilih">25</option>
+		        <option value="pilih">26</option>
+		        <option value="pilih">27</option>
+		        <option value="pilih">28</option>
+		        <option value="pilih">29</option>
+		        <option value="pilih">30</option>
+		        <option value="pilih">31</option>
+		        </select>
+		        <select name="bln">
+		        <option value="pilih">Januari</option>
+		        <option value="pilih">Februari</option>
+		        <option value="pilih">Maret</option>
+		        <option value="pilih">April</option>
+		        <option value="pilih">Mei</option>
+		        <option value="pilih">Juni</option>
+		        <option value="pilih">Juli</option>
+		        <option value="pilih">Agustus</option>
+		        <option value="pilih">September</option>
+		        <option value="pilih">Oktober</option>
+		        <option value="pilih">November</option>
+		        <option value="pilih">Desember</option>
+		        </select>
+		        <Select name="thn">
+		        <option value="pilih">2020</option>
+		        <option value="pilih">2021</option>
+		        <option value="pilih">2022</option>
+		        <option value="pilih">2023</option>
+		        </select></td>
+       		 	</td>
+       		 </tr>
+       		 <tr>
+    			<td><b>Jenis Kelamin</b></td>
+    			<td><input type="radio" name="jenis_kelamin" value="pria"/><label for="jenis_kelamin">Pria</label>
+    			<input type="radio" name="jenis_kelamin" value="wanita"/><label for="jenis_kelamin">Wanita</label></td>
+    		</tr>
+    		<tr>
+				<th align="left">Jenjang/Jurusan yang dipilih</th>
+				<td>
+				<table border="1" cellpadding="7">
+				<thead>
+				<tr>
+				<th rowspan="2">JENJANG</th>
+				<th colspan="2">PROGRAM STUDI</th>
+				</tr>
+				<tr>
+				<th>Reguler</th>
+				<th>Karyawan</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+				<th>
+				D III <br>
+				(Diploma Tiga)
+				</th>
+				<td>
+				<input type="radio" name="jurusan" value="Akuntansi Reguler D3"> Akuntansi <br>
+				<input type="radio" name="jurusan" value="Manajemen  Perusahaan Reguler D3"> Manajemen Perusahaan
+				</td>
+				<td>
+				<input type="radio" name="jurusan" value="Akuntansi Karyawan D3"> Akuntansi <br>
+				<input type="radio" name="jurusan" value="Manajemen Perusahaan Karyawan D3"> Manajemen Perusahaan
+				</td>
+				</tr>
+				<tr>
+				<th>
+				S 1 <br>
+				(Strata Satu)
+				</th>
+				<td>
+				<input type="radio" name="jurusan" value="Akuntansi Reguler S1"> Akuntansi <br>
+				<input type="radio" name="jurusan" value="Manajemen Reguler S1"> Manajemen
+				</td>
+				<td>
+				<input type="radio" name="jurusan" value="Akuntansi Karyawan S1 "> Akuntansi <br>
+				<input type="radio" name="jurusan" value="Manajemen Karyawan S1 "> Manajemen
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				<tr>
+					<th align="left">Waktu Kuliah</th>
+					<td>
+						<select name="waktu">
+							<option value=""></option>
+							<option value="Pagi">Pagi</option>
+							<option value="Sore">Sore</option>
+							<option value="Malam">Malam</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th align="left">Ukuran Jaket</th>
+					<td>
+						<select name="jaket">
+							<option value=""></option>
+							<option value="Small">Small</option>
+							<option value="Medium">Medium</option>
+							<option value="Large">Large</option>
+							<option value="Extra Large">Extra Large</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th align="left">Sistem Pembayaran</th>
+					<td>
+						<input type="radio" name="sistem_pb" value="Angsuran"> Angsuran <br>
+						<input type="radio" name="sistem_pb" value="Tunai"> Tunai
+					</td>
+				</tr>
+			</table>
+			<table border="0" width="80%" cellpadding="2" cellspacing="2" align="center" bgcolor="white">
+			 <tr>
+			 	<td colspan="2" bgcolor=Gainsboro><center><b>INFORMASI PERSONAL</b></center></td></tr>
+    		<tr>
+    			<td><b>Tempat Tanggal Lahir</b></td>
+        		<td>
+		        <select name="tgl">
+		        <option value="pilih">1</option>
+		        <option value="pilih">2</option>
+		        <option value="pilih">3</option>
+		        <option value="pilih">4</option>
+		        <option value="pilih">5</option>
+		        <option value="pilih">6</option>
+		        <option value="pilih">7</option>
+		        <option value="pilih">8</option>
+		        <option value="pilih">9</option>
+		        <option value="pilih">10</option>
+		        <option value="pilih">11</option>
+		        <option value="pilih">12</option>
+		        <option value="pilih">13</option>
+		        <option value="pilih">14</option>
+		        <option value="pilih">15</option>
+		        <option value="pilih">16</option>
+		        <option value="pilih">17</option>
+		        <option value="pilih">18</option>
+		        <option value="pilih">19</option>
+		        <option value="pilih">20</option>
+		        <option value="pilih">21</option>
+		        <option value="pilih">22</option>
+		        <option value="pilih">23</option>
+		        <option value="pilih">24</option>
+		        <option value="pilih">25</option>
+		        <option value="pilih">26</option>
+		        <option value="pilih">27</option>
+		        <option value="pilih">28</option>
+		        <option value="pilih">29</option>
+		        <option value="pilih">30</option>
+		        <option value="pilih">31</option>
+		        </select>
+		        <select name="bln">
+		        <option value="pilih">Januari</option>
+		        <option value="pilih">Februari</option>
+		        <option value="pilih">Maret</option>
+		        <option value="pilih">April</option>
+		        <option value="pilih">Mei</option>
+		        <option value="pilih">Juni</option>
+		        <option value="pilih">Juli</option>
+		        <option value="pilih">Agustus</option>
+		        <option value="pilih">September</option>
+		        <option value="pilih">Oktober</option>
+		        <option value="pilih">November</option>
+		        <option value="pilih">Desember</option>
+		        </select>
+		        <Select name="thn">
+		        <option value="pilih">1998</option>
+		        <option value="pilih">1999</option>
+		        <option value="pilih">2000</option>
+		        <option value="pilih">2001</option>
+		        <option value="pilih">2002</option>
+		        <option value="pilih">2003</option>
+		        <option value="pilih">2004</option>
+		        <option value="pilih">2005</option>
+		        </select></td>
+		        </td>
+		        </tr>
+    <tr><td><b>Alamat dan No.Rumah</b></td><td><textarea name="alamat" cols="40" rows="3"></textarea></td></tr>
+    <tr>
+    <td><b>Agama</b></td><td>
+    <select name="agama">
+    <option value="islam">Islam</option>
+    <option value="kristen">Kristen</option>
+    <option value="hindu">Hindu</option>
+    <option value="budha">Budha</option>
+    </select>
+    </td>
+    <tr>
+    <td><b>Status</b></td><td>
+    <select name="status">
+    <option value="menikah">Menikah</option>
+    <option value="single">Single</option>
+    </select>
+    </td>
+    <tr>
+    <td><b>Kewarganegaraan</b></td><td>
+    <select name="kewarganegaraan">
+    <option value="wni">WNI</option>
+    <option value="wna">WNA</option>
+    </select>
+    </td>
+<tr><td><b>Pekerjaan</b></td><td><input type="text" name="pekerjaan" size="45" maxlength="100"/></td></tr>
+<tr><td><b>Kelurahan</b></td><td><input type="text" name="kelurahan" size="45" maxlength="100"/></td></tr>
+<tr><td><b>Kecamatan</b></td><td><input type="text" name="kecamatan" size="45" maxlength="100"/></td></tr>
+<tr><td><b>Kota/Kabupaten</b></td><td><input type="text" name="kota" size="45" maxlength="100"/></td></tr>
+<tr><td><b>Provinsi<b></td><td>
+<select name="provinsi">
+<option value="Pilih Provinsi Anda">Pilih Provinsi Anda</option>
+<option value="Bali">Bali</option>
+<option value="Bangka Belitung">Bangka Belitung</option>
+<option value="Banten">Banten</option>
+<option value="Bengkulu">Bengkulu</option>
+<option value="Gorontalo">Gorontalo</option>
+<option value="Irian Jaya Barat">Irian Jaya Barat</option>
+<option value="Jabotabekdecipsawcib">Jabotabekdecipsawcib</option>
+<option value="Jambi">Jambi</option>
+<option value="Jawa Barat">Jawa Barat</option>
+<option value="Jawa Tengah">Jawa Tengah</option>
+<option value="Jawa Timur">Jawa Timur</option>
+<option value="Kalimantan Barat">Kalimantan Barat</option>
+<option value="Kalimantan Selatan">Kalimantan Selatan</option>
+<option value="Kalimantan Tengah">Kalimantan Tengah</option>
+<option value="Kalimantan Timur">Kalimantan Timur</option>
+<option value="Kepulauan Riau">Kepulauan Riau</option>
+<option value="Lampung">Lampung</option>
+<option value="Lokasi Lain-lain">Lokasi Lain-lain</option>
+<option value="Maluku">Maluku</option>
+<option value="Maluku Utara">Maluku Utara</option>
+<option value="Nangroe Aceh Darussalam">Nangroe Aceh Darussalam</option>
+<option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+<option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+<option value="Papua">Papua</option>
+<option value="Riau">Riau</option>
+<option value="Sulawesi Barat">Sulawesi Barat</option>
+<option value="Sulawesi Selatan">Sulawesi Selatan</option>
+<option value="Sulawesi Tengah">Sulawesi Tengah</option>
+<option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+<option value="Sulawesi Utara">Sulawesi Utara</option>
+<option value="Sumatera Barat">Sumatera Barat</option>
+<option value="Sumatera Selatan">Sumatera Selatan</option>
+<option value="Sumatera Utara">Sumatera Utara</option>
+<option value="Yogyakarta">Yogyakarta</option>
+    </select></td></tr>
+    <tr><td><b>No Telepon</b></td><td><input type="text" name="telepon" size="40" maxlength="50"/></td></tr>
+   </table>
+<table border="0" width="80%" cellpadding="2" cellspacing="2" align="center" bgcolor="white">
+			 <tr>
+			 	<td colspan="2" bgcolor=Gainsboro><center><b>PENDIDIKAN TERAKHIR</b></center></td></tr>
+				<tr>
+					<th align="left">Asal SMA/SMK/Perguruan Tinggi</th>
+					<td valign="top"><input type="text" name="asal_sekolah" size="83" maxlength="30"></td>
+				</tr>
+				<tr>
+					<th align="left">Status Sekolah/Perguruan Tinggi</th>
+					<td >
+						<select name="status_sekolah">
+							<option value=""></option>
+							<option value="Negeri">Negeri</option>
+							<option value="Swasta">Swasta</option>
+							<option value="Luar Negeri">Luar Negeri</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th align="left">Jurusan</th>
+					<td><input type="text" name="jurusan" size="83"maxlength="14"></td>
+				</tr>
+				<tr>
+					<th align="left">Nomor Ijazah SMA/SMK/Diploma III/S1</th>
+					<td valign="top"><input type="text" name="jurusan" size="83" maxlength="14"></td>
+				</tr>
+				<tr>
+					<th align="left">Tanggal Lulus</th>
+					<td><input type="date" name="tgl_lulus"></td>
+				</tr>
+	 	</table>
+	 	<table align="right">
+                <tbody><tr>
+                    <td>Ttd.</td>
+                </tr>
+                <tr>
+                    <td>Cirebon, <input type="date" name="tgl_ttd"></td>
+                </tr>
+                <tr>
+                    <td height="80px"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="" placeholder="Nama Lengkap"></td>
+                </tr><tr>
+            </tr>
+            <br>
+            <tr>
+            	<td>
+            		<button type="submit">Kirim</button>
+            
+            	</td>
+            </tr>
+        	</tbody>
+          </table>
+          </fieldset>
+
+</body>
+</html>
