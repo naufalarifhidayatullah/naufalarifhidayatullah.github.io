@@ -1,0 +1,30 @@
+#kacang_ijo {
+  padding: 25px;
+  background-color: #048835;
+  border: solid 1px #f3fff4;
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.combro {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #08b559;
+}
+
+#kacang_polong {
+  padding: 50px;
+  display: none;
+  background-color: #2ace5e;
+  font-size: 20px;
+}
+
+.table_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+}
